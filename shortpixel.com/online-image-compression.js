@@ -490,7 +490,7 @@ function checkImageOptimized(preview, fileURL, compType, fileName, dropzone){
       link.id   = cssId;
       link.rel  = 'stylesheet';
       link.type = 'text/css';
-      link.href = 'https://github.com/gk-git/sites-resources-overides/blob/master/shortpixel.com/style.css';
+      link.href = 'https://raw.githubusercontent.com/gk-git/sites-resources-overides/master/shortpixel.com/style.css';
       link.media = 'all';
       head.appendChild(link);
    }
